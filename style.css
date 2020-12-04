@@ -1,0 +1,161 @@
+
+
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+
+
+body {
+
+background-size: 1500px 620px;
+background-repeat: no-repeat;
+}
+
+.card{
+border-radius: 4px;
+background: #fff;
+box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform
+cubic-bezier(.155,1.105,.295,1.12);
+padding: 14px 80px 18px 36px;
+cursor: pointer;
+
+
+}
+
+@media(max-width: 990px){
+.card{
+margin: 40px;
+}
+}
+
+
+
+.card:hover{
+
+box-shadow: 0 40px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+
+
+
+.header_link{
+text-decoration: none;
+border: 1px solid black;
+padding: 0.5%;
+border-radius: 5px;
+display: inline-block;
+}
+.heading{
+font-family: 'Balsamiq Sans', cursive; text-align: center;
+padding-top: 30px;
+color: darkblue;
+
+}
+
+
+.customers_pay{
+font-family: 'Bree Serif', serif; text-align: center;
+margin-top: 20px;
+
+}
+.flex{
+display: flex;
+height:350px;
+width:4000px;
+margin-left: 180px;
+
+}
+
+.flex > div {
+margin: 10px;
+padding: 20px;
+border:2px solid #EEAEF7 ;
+border-radius: 50px;
+}
+
+
+
+#main_heading{
+color: darkslateblue;
+font-family: 'Libre Baskerville', serif;
+text-shadow: 2px 2px 4px skyblue;
+display: inline;
+}
+#main2{
+color: darkslateblue;
+font-family: 'Libre Baskerville', serif;
+text-shadow: 2px 2px 4px skyblue;
+}
+
+
+.button {
+border-radius: 3px;
+background-color: cornflowerblue;
+border: none;
+color: #FFFFFF;
+text-align: center;
+font-size: 28px;
+padding: 20px;
+width: 200px;
+transition: all 0.5s;
+cursor: pointer;
+margin: 5px;
+}
+
+.button span {
+cursor: pointer;
+display: inline-block;
+position: relative;
+transition: 0.5s;
+}
+
+.button span:after {
+content: '\00bb';
+position: absolute;
+opacity: 0;
+top: 0;
+right: -20px;
+transition: 0.5s;
+}
+
+.button:hover span {
+padding-right: 25px;
+}
+
+.button:hover span:after {
+opacity: 1;
+right: 0;
+}
+.button{
+margin-left: 520px;
+border-radius: 12px;
+}
+.container {
+display: flex;
+flex-wrap: nowrap;
+
+}
+
+.container > div {
+width: 100px;
+margin: 10px;
+text-align: center;
+line-height: 75px;
+font-size: 30px;
+}
+
+#trans_back{
+
+border:2px solid rgb(145, 124, 124);
+border-radius: 5px;
+padding:2px;
+text-decoration: none;
+}
+
+#trans{
+text-decoration: none;
+background-color: beige;
+}
